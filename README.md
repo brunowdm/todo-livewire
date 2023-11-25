@@ -42,6 +42,21 @@ Instale as dependências
   composer install
 ```
 
+Criar o arquivo de configurações
+
+```bash
+  cp .env.example .env
+```
+ou
+```bash
+  copy .env.example .env
+```
+
+
+Adicione as informações do banco de dados no arquivo .env
+
+
+
 Rodar Migrate para criar o banco de dados
 
 ```bash
@@ -63,3 +78,7 @@ Inicie o servidor
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://wdmsistemas.com.br)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bruno-wan-der-maas-382a8b146/)
+
+## Demonstração
+
+[TODO List](https://todo.wdmsistemas.com.br/)
