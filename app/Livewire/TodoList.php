@@ -53,6 +53,8 @@ class TodoList extends Component
     public function edit($todoID){
         $this->editingTodoID = $todoID;
         $this->editingTodoName = Todo::find($todoID)->name;
+
+        $this->dispatch('editingTodo');
     }
 
     public function cancelEdit(){

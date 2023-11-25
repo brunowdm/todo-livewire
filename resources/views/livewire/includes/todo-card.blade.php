@@ -11,7 +11,7 @@
 
             @if ($editingTodoID === $todo->id)
                 <div>
-                    <input wire:model='editingTodoName' type="text" placeholder="Todo.."
+                    <input wire:model='editingTodoName' id="editingTodoName" type="text" placeholder="Todo.."
                         class="bg-gray-100  text-gray-900 text-sm rounded block w-full p-2.5" value="Todo Name">
 
                     @error('editingTodoName')
