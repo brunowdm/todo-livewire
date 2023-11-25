@@ -8,7 +8,7 @@
 </p>
 
 ## About Project
-
+TODO List
 Projeto realizado para fins de aprendizado.
 
 ## Referência
@@ -57,10 +57,6 @@ Inicie o servidor
 
 ```bash
   php artisan serve
-```
-
-```bash
-  php artisan migrate
 ```
 
 ## 🔗 Links
